@@ -1,0 +1,25 @@
+{
+  "name": "pragmaticweb/php-coding-standards",
+  "description": "Style guide for writing consistent PHP code for WordPress projects.",
+  "version": "0.0.1",
+  "type": "phpcodesniffer-standard",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Pragmatic",
+      "email": "hello@pragmatic.agency",
+      "homepage": "https://pragmatic.agency",
+      "role": "Company"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+    "squizlabs/php_codesniffer": "^3",
+    "wp-coding-standards/wpcs": "^2",
+    "phpcompatibility/phpcompatibility-wp": "*",
+    "fig-r/psr2r-sniffer": "^0.5.0"
+  },
+  "require-dev": {}
+}
